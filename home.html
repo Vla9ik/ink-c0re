@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20240315220441">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240316154938">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,10 +41,10 @@
 				</div>
 				<div class="header__bottom">
 					<nav data-da=".menu__body, 1024, 0" class="header__navigation">
-						<a href="#" class="header__link">О нас</a>
+						<a href="#" class="header__link active">О нас</a>
 						<a href="#" class="header__link">портфолио</a>
 						<a href="#" class="header__link">мастера</a>
-						<div class="header__link _icon-select-arrow">
+						<div class="header__submenu _icon-select-arrow">
 							<span>услуги</span>
 							<ul class="header__list">
 								<li>
@@ -58,7 +58,7 @@
 								</li>
 							</ul>
 						</div>
-						<div class="header__link _icon-select-arrow">
+						<div class="header__submenu  _icon-select-arrow">
 							<span>про тату</span>
 							<ul class="header__list">
 								<li>
@@ -105,18 +105,35 @@
 		<main class="page">
 			<div class="page__main main">
 				<div class="main__container">
-					<!-- <video muted class="main__video">
-							<source src="img/gif.gif" type="video/mp4"/>
-						</video> -->
-					<img class="main__logo" src="img/alphaweb.gif" alt="Image">
+					<video autoplay muted class="main__video">
+						<source src="img/Inkcore_logo.mp4" type="video/mp4" />
+					</video>
+					<!-- <img class="main__logo" src="img/alphaweb.gif" alt="Image"> -->
 					<!-- <div class="main__logo">
 							<img src="img/inkcore__logo.svg" alt="logo">
 						</div> -->
-					<h1 class="main__title font_lang-ru-de">
+					<div class="main__welcome font_lang-ru-de">
 						Добро пожаловать
-					</h1>
-					<span>text-align</span>
+					</div>
+					<h1 class="main__title">Здесь будет заголовок</h1>
 				</div>
+			</div>
+			<!-- <div class="page__consultation-form consultation-form">
+					<div class="consultation-form__container">
+						<img src="img/consultation-form/decore.svg" alt="decore" class="consultation-form__decore">
+						<div class="consultation-form__form">
+							<label for="number">
+								<input autocomplete="off" type="text" name="form[]"  placeholder="+380 ( 66 ) 8| _ _  _ _  _ _ " class="consultation-form__input">
+							</label>
+							<label for="name">
+								<input autocomplete="off" type="text" name="form[]" placeholder="Ваше Имя" class="consultation-form__input">
+							</label>
+							<button type="submit" class="consultation-form__button button">хочу консультацию</button>
+						</div>
+					</div>
+				</div> -->
+			<div class="page__video-presentation video-presentation">
+				<video autoplay muted src="img/lomanini.mp4"></video>
 			</div>
 		</main>
 		<footer class="footer">
@@ -124,7 +141,7 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20240315220441"></script>
+	<script src="js/app.min.js?_v=20240316154938"></script>
 </body>
 
 </html>
